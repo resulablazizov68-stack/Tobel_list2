@@ -42,7 +42,7 @@ function App(){
        компанента спомощью пропсов*/}
       <Routes>
         <Route path='/' element={<About/>} />
-        <Route path='/spisok_del' element={<Spisok_del xranilesh_del={xranilesh_del} />} />
+        <Route path='/spisok_del' element={<Spisok_del xranilesh_del={xranilesh_del} setXranilesh_del={setXranilesh_del} />} />
         <Route path='/zapis_del' element={<Zapis_del zapis_zadachi={zapis_zadachi}  setZapis_zadachi={setZapis_zadachi} dobavit_zadachi={dobavit_zadachi} />} />
       </Routes>
     </div>
