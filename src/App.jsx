@@ -4,6 +4,8 @@ import {useState} from 'react';
 {/*Тут я буду импортировать инструменты из бровсера что бы их применять для создание маршрутизаторов*/}
 import {Routes,Route,Link} from 'react-router-dom'
 
+import './App.css';
+
 {/*Тут я импортировал все мои компаненты*/}
 import About from './component/About.jsx';
 import Spisok_del from './component/Spisok_del.jsx';

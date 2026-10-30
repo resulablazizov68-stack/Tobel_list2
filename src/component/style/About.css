@@ -1,0 +1,36 @@
+/* О НАС - как инфа о контакте в ватсапе */
+.About {
+  background-color: #111b21;
+  padding: 20px;
+}
+
+.About h1 {
+  color: #00a884;
+}
+
+.about-card {
+  background-color: #202c33;
+  background-image: 
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 100% 28px;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  border: 1px solid #2a3942;
+}
+
+.about-card p {
+  color: #e9edef;
+  line-height: 28px; /* чтобы текст шел по линиям тетради */
+  margin-bottom: 10px;
+}
+
+.about-tag {
+  background-color: #00a884;
+  color: white !important;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+  margin-top: 10px;
+}

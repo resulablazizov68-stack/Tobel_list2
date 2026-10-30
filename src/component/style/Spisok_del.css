@@ -1,0 +1,67 @@
+/* БЛАКНОТО - список дел как чаты */
+.Spisok_del {
+  background-color: #111b21;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.Spisok_del h1 {
+  color: #e9edef;
+  border-bottom: 1px solid #2a3942;
+  padding-bottom: 10px;
+}
+
+.Spisok_del ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(#1f2c34 1px, transparent 1px);
+  background-size: 100% 52px;
+}
+
+.Spisok_del li {
+  background-color: #202c33;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e9edef;
+  border-left: 3px solid #2a3942;
+}
+
+/* Цвета выполнения */
+.Spisok_del li[style*="green"] {
+  border-left-color: #00a884 !important;
+  color: #00a884 !important;
+}
+
+.Spisok_del li[style*="red"] {
+  border-left-color: #f15c6d !important;
+  color: #f15c6d !important;
+}
+
+/* Кнопки как в ватсапе */
+.Spisok_del li button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 15px;
+  margin-left: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.Spisok_del li button:nth-child(1) {
+  background-color: #00a884; /* Выполнил */
+}
+
+.Spisok_del li button:nth-child(2) {
+  background-color: #f15c6d; /* Не выполнил */
+}
+
+.Spisok_del li button:nth-child(3) {
+  background-color: #2a3942; /* Удалить */
+}

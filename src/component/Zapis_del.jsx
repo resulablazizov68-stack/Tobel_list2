@@ -1,5 +1,6 @@
 {/*Тут я реализовал компанент для записи моих дел*/}
 import React from 'react';
+import './style/Zapis_del.css';
 
 function Zapis_del({zapis_zadachi,dobavit_zadachi,setZapis_zadachi }){
 	return(
